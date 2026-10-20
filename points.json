@@ -1,0 +1,984 @@
+{
+  "connection": {
+    "host": "192.168.0.200",
+    "port": 3001
+  },
+  "points": [
+    {
+      "ioa": 1,
+      "name": "OUT1",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 2,
+      "name": "OUT2",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 3,
+      "name": "OUT3",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 4,
+      "name": "OUT4",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 5,
+      "name": "OUT5",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 6,
+      "name": "OUT6",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 7,
+      "name": "OUT7",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 8,
+      "name": "OUT8",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 9,
+      "name": "CLOSE Status",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 10,
+      "name": "OPEN Status",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 11,
+      "name": "Handle Locked",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 12,
+      "name": "Gas Low",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 13,
+      "name": "SW State Error",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 14,
+      "name": "Spare",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 15,
+      "name": "Spare",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 16,
+      "name": "Spare",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 17,
+      "name": "Remote Enable",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 18,
+      "name": "Local Enable",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 19,
+      "name": "Control Lock",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 20,
+      "name": "Control Fail",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 21,
+      "name": "AC Power Status",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 22,
+      "name": "Charging Circuit Status",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 23,
+      "name": "Y side Energized",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 24,
+      "name": "Z side Energized",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 25,
+      "name": "Sectionalizer enabled",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 26,
+      "name": "Spare",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 27,
+      "name": "OPEN Local",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 28,
+      "name": "CLOSE Local",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 29,
+      "name": "OC A",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 30,
+      "name": "OC B",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 31,
+      "name": "OC C",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 32,
+      "name": "OC N",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 33,
+      "name": "FI A (latch)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 34,
+      "name": "FI B (latch)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 35,
+      "name": "FI C (latch)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 36,
+      "name": "FI N (latch)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 37,
+      "name": "Spare",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 38,
+      "name": "FI_ABC (tổng hợp)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 39,
+      "name": "FI_ABC (latch)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 40,
+      "name": "Out of phase ( All)",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 41,
+      "name": "Out of phase A-R",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 42,
+      "name": "Out of phase B-S",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 43,
+      "name": "Out of phase C-T",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 44,
+      "name": "OLD A",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 45,
+      "name": "OLD B",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 46,
+      "name": "OLD C",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 47,
+      "name": "OLD R",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 48,
+      "name": "OLD S",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 49,
+      "name": "OLD T",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 50,
+      "name": "UFR Alarm",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 51,
+      "name": "OFR Alarm",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 52,
+      "name": "UVR Alarm",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 53,
+      "name": "OVR Alarm",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 54,
+      "name": "System Error",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 55,
+      "name": "Battery Low",
+      "type": "SINGLE",
+      "default": 0,
+      "min": 0,
+      "max": 1
+    },
+    {
+      "ioa": 1001,
+      "name": "LBS Status",
+      "type": "DOUBLE",
+      "default": 0,
+      "min": 0,
+      "max": 3
+    },
+    {
+      "ioa": 2001,
+      "name": "Frequency(Hz)",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2002,
+      "name": "SA",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2003,
+      "name": "SB",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2004,
+      "name": "SC",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2005,
+      "name": "PA",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2006,
+      "name": "PB",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2007,
+      "name": "PC",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2008,
+      "name": "QA",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2009,
+      "name": "QB",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2010,
+      "name": "QC",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2011,
+      "name": "Power factor A",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2012,
+      "name": "Power factor B",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2013,
+      "name": "Power factor C",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2014,
+      "name": "THD A",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2015,
+      "name": "THD B",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2016,
+      "name": "THD C",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2017,
+      "name": "Total S",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2018,
+      "name": "Total P",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2019,
+      "name": "Total Q",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2020,
+      "name": "Setting: System frequency",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2021,
+      "name": "Setting: Rated voltage",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2022,
+      "name": "Setting: Rated current",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2023,
+      "name": "Setting: Over current protection 1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2024,
+      "name": "Setting: Over current protection 2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2025,
+      "name": "Setting: Phase angle diffent threshold",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2026,
+      "name": "Config: PT ratio",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2027,
+      "name": "Config: CT ratio",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2028,
+      "name": "Config: CTN ratio",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2029,
+      "name": "LV supply1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2030,
+      "name": "LV supply2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2031,
+      "name": "Controller temperature",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2101,
+      "name": "PP VY12",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2102,
+      "name": "PP VY23",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2103,
+      "name": "PP VY31",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2104,
+      "name": "Ph VY1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2105,
+      "name": "Ph VY2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2106,
+      "name": "Ph VY3",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2107,
+      "name": "PP VZ12",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2108,
+      "name": "PP VZ23",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2109,
+      "name": "PP VZ31",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2110,
+      "name": "Ph VZ1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2111,
+      "name": "Ph VZ2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2112,
+      "name": "Ph VZ3",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2113,
+      "name": "I1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2114,
+      "name": "I2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2115,
+      "name": "I3",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2116,
+      "name": "IN",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2117,
+      "name": "Positive Sequence VY",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2118,
+      "name": "Negative Sequence VY",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2119,
+      "name": "Zero Sequence VY",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2120,
+      "name": "Positive Sequence VZ",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2121,
+      "name": "Negative Sequence VZ",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2122,
+      "name": "Zero Sequence VZ",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2123,
+      "name": "Positive Sequence I",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2124,
+      "name": "Negative Sequence I",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2125,
+      "name": "Zero Sequence I",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2201,
+      "name": "Wh phase 1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2202,
+      "name": "Wh phase 2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2203,
+      "name": "Wh phase 3",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2204,
+      "name": "Total Wh",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2205,
+      "name": "VARh phase 1",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2206,
+      "name": "VARh phase 2",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2207,
+      "name": "VARh phase 3",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2208,
+      "name": "Total VARh",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2209,
+      "name": "Close count",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    },
+    {
+      "ioa": 2210,
+      "name": "Open count",
+      "type": "FLOAT",
+      "default": 0,
+      "min": -10000,
+      "max": 10000
+    }
+  ]
+}
